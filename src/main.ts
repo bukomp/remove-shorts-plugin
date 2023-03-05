@@ -1,10 +1,10 @@
-import { removeShortsButton } from './pages/all';
+import { removeShortsButtons } from './pages/all';
 import { removeSectionsWithShortsOnUpdates } from './pages/generalfeed';
 import { removeShortsFromSubscriptions } from './pages/subscriptions';
 import { excecuteIfPageChangeTo } from './utils/utils';
 
 const main = async (): Promise<void> => {
-  //removeShortsButton();
+  removeShortsButtons();
   excecuteIfPageChangeTo(async (href: string) => {
     switch (href) {
       case 'https://www.youtube.com/':

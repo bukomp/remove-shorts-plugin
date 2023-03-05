@@ -3,7 +3,6 @@ import { sleep, waitUntilNodeLoads } from '../utils/utils';
 
 const removeShorts = () => {
   const gridVideoRenderers = document.querySelectorAll('ytd-grid-video-renderer') as NodeListOf<HTMLElement>;
-  console.log(gridVideoRenderers);
 
   gridVideoRenderers.forEach((videoRenderer: HTMLElement, i: number) => {
     const hasShortsLink = Array.from(videoRenderer.getElementsByTagName('a')).some((link) => link.href.includes('shorts'));
