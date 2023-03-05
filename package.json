@@ -5,8 +5,10 @@
   "main": "main.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx webpack",
-    "build-test": "npx tsc src/main.ts"
+    "build": "npx webpack && npm run post-build",
+    "build-test": "npx tsc src/main.ts",
+    "post-build": "bash src/scripts/post_build.sh",
+    "release": "standard-version"
   },
   "author": "Edvard Shalaev (bukomp)",
   "license": "ISC",
