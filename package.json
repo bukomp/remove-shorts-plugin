@@ -1,6 +1,6 @@
 {
   "name": "shorts-remover",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Google chrome plugin to remove youtube shorts from users feed",
   "main": "main.ts",
   "scripts": {

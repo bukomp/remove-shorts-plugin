@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/bukomp/remove-shorts-plugin/compare/v0.0.6...v0.0.7) (2023-03-05)
+
+
+### Bug Fixes
+
+* Added 2 screenshots to readme ([a0d39cd](https://github.com/bukomp/remove-shorts-plugin/commit/a0d39cda1187c6ca2653b3dde130ce7a2c0b5733))
+
 ### [0.0.6](https://github.com/bukomp/remove-shorts-plugin/compare/v0.0.5...v0.0.6) (2023-03-05)
 
 
