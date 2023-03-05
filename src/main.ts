@@ -4,7 +4,7 @@ import { removeShortsFromSubscriptions } from './pages/subscriptions';
 import { excecuteIfPageChangeTo } from './utils/utils';
 
 const main = async (): Promise<void> => {
-  removeShortsButton();
+  //removeShortsButton();
   excecuteIfPageChangeTo(async (href: string) => {
     switch (href) {
       case 'https://www.youtube.com/':
