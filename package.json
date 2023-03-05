@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx webpack && npm run post-build",
-    "build-test": "npx tsc src/main.ts",
+    "build-dev": "npx webpack -c ./webpack.config.development.js && npm run post-build",
     "post-build": "bash src/scripts/post_build.sh",
     "release": "standard-version"
   },
