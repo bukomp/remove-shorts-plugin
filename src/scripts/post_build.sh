@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Copy all the icons from the src/icons folder to the built folder
-cp -R src/icons/* ./built
+cp -R ./icons/* ./built
 
 # Copy all the files from the dist folder to the built folder
 cp -R ./dist/* ./built
