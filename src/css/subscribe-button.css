@@ -1,0 +1,7 @@
+/*
+* Remove both "Shorts" buttons from side menu
+*/
+ytd-guide-entry-renderer.ytd-guide-entry-renderer > #endpoint,
+ytd-mini-guide-entry-renderer > a#endpoint {
+  display: none !important;
+}
