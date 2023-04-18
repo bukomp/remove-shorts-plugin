@@ -1,0 +1,6 @@
+/*
+* Remove "Shorts" group section from side in video view
+*/
+ytd-reel-shelf-renderer.ytd-item-section-renderer {
+  display: none !important;
+}
