@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/bukomp/remove-shorts-plugin/compare/v0.0.8...v0.0.9) (2023-07-16)
+
+
+### Bug Fixes
+
+* minor fixes to bash script ([d65b100](https://github.com/bukomp/remove-shorts-plugin/commit/d65b10097acedccc0a65868253b0a5de7cd60481))
+
 ### [0.0.8](https://github.com/bukomp/remove-shorts-plugin/compare/v0.0.7...v0.0.8) (2023-07-16)
 
 
