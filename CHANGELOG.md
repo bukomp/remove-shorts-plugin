@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/bukomp/remove-shorts-plugin/compare/v0.1.2...v0.1.3) (2023-07-16)
+
+
+### Bug Fixes
+
+* added pre_build script, so temp folders/files will be deleted before proceeding to the actual build script ([86ca405](https://github.com/bukomp/remove-shorts-plugin/commit/86ca40521d0886d743f82a65b62d010b66d4255e))
+
 ### [0.1.2](https://github.com/bukomp/remove-shorts-plugin/compare/v0.0.9...v0.1.2) (2023-07-16)
 
 
