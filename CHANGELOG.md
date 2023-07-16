@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/bukomp/remove-shorts-plugin/compare/v0.0.9...v0.1.2) (2023-07-16)
+
+
+### Features
+
+* removed shorts section next to video player ([1b80be0](https://github.com/bukomp/remove-shorts-plugin/commit/1b80be0d95bb61f0f335a7ff95169cfd44bc5715))
+
+
+### Bug Fixes
+
+* removed old backup ([21a6134](https://github.com/bukomp/remove-shorts-plugin/commit/21a6134758f6494df81e7f19250f1c82441659b2))
+* updated packages ([b1eb2b3](https://github.com/bukomp/remove-shorts-plugin/commit/b1eb2b3983de1b327f3f285d6c8c26bacf3eddc3))
+
 ### [0.0.9](https://github.com/bukomp/remove-shorts-plugin/compare/v0.0.8...v0.0.9) (2023-07-16)
 
 
