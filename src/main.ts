@@ -1,3 +1,6 @@
+import './css/subscribe-button.css';
+import './css/shorts-section-next2video.css';
+
 /**
  * main function to remove shorts-related elements from YouTube page
  */

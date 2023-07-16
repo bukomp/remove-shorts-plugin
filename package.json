@@ -4,7 +4,6 @@
   "description": "Google chrome plugin to remove youtube shorts from users feed",
   "main": "main.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx webpack && npm run post-build && npm run package-build",
     "build-dev": "npx webpack -c ./webpack.config.development.js && npm run post-build",
     "post-build": "bash scripts/post_build.sh",
@@ -16,9 +15,11 @@
   "devDependencies": {
     "@types/node": "^18.14.2",
     "@typescript-eslint/parser": "^5.54.0",
+    "css-loader": "^6.8.1",
     "eslint": "^8.35.0",
     "prettier": "^2.8.4",
     "standard-version": "^9.5.0",
+    "style-loader": "^3.3.3",
     "terser-webpack-plugin": "^5.3.6",
     "ts-loader": "^9.4.2",
     "typescript": "^4.9.5",

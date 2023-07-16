@@ -5,26 +5,30 @@ module.exports = {
   entry: './src/main.ts',
   output: {
     filename: 'content.min.js',
-    path: __dirname + '/dist'
+    path: __dirname + '/dist',
   },
   resolve: {
-    extensions: ['.ts', '.js']
+    extensions: ['.ts', '.js'],
   },
   module: {
     rules: [
       {
         test: /\.ts$/,
         use: 'ts-loader',
-        exclude: /node_modules/
-      }
-    ]
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
   },
   optimization: {
     minimize: true,
     minimizer: [
       new TerserPlugin({
-        extractComments: false
-      })
-    ]
-  }
+        extractComments: false,
+      }),
+    ],
+  },
 };
