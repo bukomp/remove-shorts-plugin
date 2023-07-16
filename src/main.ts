@@ -1,5 +1,5 @@
 import './css/subscribe-button.css';
-import './css/shorts-section-next2video.css';
+import './css/shorts-sections.css';
 import { observeYtdRichGridRenderer } from './observers/feedObserver';
 
 /**

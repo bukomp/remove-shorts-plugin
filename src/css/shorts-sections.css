@@ -1,6 +1,7 @@
 /*
 * Remove "Shorts" group section from side in video view
 */
-ytd-rich-section-renderer {
+ytd-rich-section-renderer,
+ytd-reel-shelf-renderer {
   display: none !important;
 }
