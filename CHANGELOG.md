@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/bukomp/remove-shorts-plugin/compare/v0.0.7...v0.0.8) (2023-07-16)
+
+
+### Features
+
+* added another filter for shorts filtering ([2e54db6](https://github.com/bukomp/remove-shorts-plugin/commit/2e54db6f10fc4d66534598f6b5ebe80a918a3f04))
+* commented the code ([cf27301](https://github.com/bukomp/remove-shorts-plugin/commit/cf27301cfbe4d75f5e6dc86424321d2b94f581d9))
+* implemented simpler observer functionality to remove shorts & because of new youtube page structure implemented grid rearranging functionality ([841c591](https://github.com/bukomp/remove-shorts-plugin/commit/841c59157cec314524936646cd542a5ce3656af4)), closes [#2](https://github.com/bukomp/remove-shorts-plugin/issues/2) [#3](https://github.com/bukomp/remove-shorts-plugin/issues/3)
+* implemented utilisation of css to remove shorts buttons from side menu ([befab37](https://github.com/bukomp/remove-shorts-plugin/commit/befab378bbfcbd156f8c839f0c2a831e2ac053d0)), closes [#1](https://github.com/bukomp/remove-shorts-plugin/issues/1)
+
+
+### Bug Fixes
+
+* added manifest.json to the git ([11c60fc](https://github.com/bukomp/remove-shorts-plugin/commit/11c60fcc4f44b30a3bac3608404765b1ff97e451))
+
 ### [0.0.7](https://github.com/bukomp/remove-shorts-plugin/compare/v0.0.6...v0.0.7) (2023-03-05)
 
 

@@ -1,12 +1,16 @@
 {
   "manifest_version": 3,
   "name": "Shorts Remover",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Removes all shorts from youtube",
   "content_scripts": [
     {
-      "matches": ["https://www.youtube.com/*"],
-      "js": ["content.min.js"]
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "content.min.js"
+      ]
     }
   ],
   "icons": {
