@@ -4,8 +4,9 @@
   "description": "Google chrome plugin to remove youtube shorts from users feed",
   "main": "main.ts",
   "scripts": {
-    "build": "npx webpack && npm run post-build && npm run package-build",
+    "build": "npm run pre-build && npx webpack && npm run post-build && npm run package-build",
     "build-dev": "npx webpack -c ./webpack.config.development.js && npm run post-build",
+    "pre-build": "bash scripts/pre_build.sh",
     "post-build": "bash scripts/post_build.sh",
     "package-build": "bash scripts/package_build.sh",
     "release": "standard-version"
