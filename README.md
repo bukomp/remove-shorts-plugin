@@ -1,5 +1,7 @@
 # Remove Shorts plugin 
 
+[Install plugin from the Chrome Store](https://chrome.google.com/webstore/detail/shorts-remover/dmbkflkbomaneolbgodfnonlhpidhmno?hl=fi)
+
 <img src="./icons/128.png" alt="Remove Shorts plugin icon" style="vertical-align: top; margin: 0px 10px 0px 0px; float: left;">
 Upon the release of Youtube shorts, I initially embraced the concept with enthusiasm. However, I soon realized that the addictive nature of shorts was negatively impacting my productivity. Despite attempts with a friend to teach the Youtube algorithm our disinterest by clicking the "not interested" button, the shorts continued to be recommended to us. </br>
 </br>
